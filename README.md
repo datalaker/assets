@@ -1,12 +1,8 @@
 # Data Engineering Curriculum
 
-> Note: If you get 404-error on some links, that means you do not have access to that.
-
 ## Getting Started
 
-### Bootcamp Kickstart
-
-### Python & SQL Primer
+> Bootcamp Kickstart and a 1-week Python+SQL Primer before starting this curriculum.
 
 ### Orientation
 
@@ -31,6 +27,8 @@
 2. [Getting Started with Github](primers/github-primer.md)
 3. [Getting Started with Google Colab](primers/google-colab.md)
 
+
+
 ## Data Engineering Fundamentals
 
 ### Essentials Level 1
@@ -52,47 +50,34 @@
 6. Slowly Changing Dimensions (SCDs)
 7. Change Data Capture (CDC)
 8. [Serialization and Compression](data-engineering-essentials/serialization-and-compression.md)
-
-### Python & SQL
-
-#### Set 1
-
-1. [Python and SQL Hands-on Practical Exercises](./python-and-sql/)
-2. [Top 30 Python Interview Questions and Answers](https://www.stratascratch.com/blog/top-30-python-interview-questions-and-answers/)
-3. [10 SQL Queries You Should Know as a Data Engineer](https://knowledgetree.notion.site/10-SQL-Queries-You-Should-Know-as-a-Data-Engineer-4e157d42c4ce4ae08050e99f3b33b82b)
-
-#### Set 2
-
-4. [What I realized after solving 100 leetcode SQL questions](https://towardsdatascience.com/sql-questions-summary-df90bfe4c9c)
-5. [SQL Leetcode All questions set](sql/leetcode-2)
-
-#### Set 3
-
-6. [LeetCode SQL Problem Solving Questions With Solutions](https://www.dsfaisal.com/articles/sql/leetcode-sql-problem-solving)
-
-#### Set 4
-
-7. [HackerRank SQL Problem Solving Questions With Solutions](https://www.dsfaisal.com/articles/sql/hackerrank-sql-problem-solving#1-revising-the-select-query-i--easy--hackerrank)
-8. [SQL Interview Questions](https://knowledgetree.notion.site/SQL-Interview-Questions-04a1196192a24eb2848e8454af1bd9c7)
-9.  [Data Engineer Interview Questions](https://www.stratascratch.com/blog/data-engineer-interview-questions/)
-10. [SQL Case Studies](sql/case-studies)
-11. [SQL Commands Categories](sql/commands1.png)
+9. [How to gather requirements for your data project](https://www.startdataengineering.com/post/n-questions-data-pipeline-req/)
+10. [5 Steps to land a high paying data engineering job](https://www.startdataengineering.com/post/n-steps-high-pay-de-job/)
+11. [Data Systems](data-engineering-essentials/data-systems.md)
 
 ### AWS
 
-#### Set 1
+1. `Set 1` [The AWS Data Engineer's Toolkit](https://knowledgetree.notion.site/The-AWS-Data-Engineer-s-Toolkit-b1ced908d4c6432296c257c87dfacb49)
+1. `Set 1` [Data Engineering on AWS](data-engineering-essentials/data-engineering-on-aws.md)
+1. `Set 1` [AWS CLI, IAM and S3 Bucket](aws-cli-iam-s3)
+1. `Set 2` [AWS Secrets Manager](aws-secrets-manager/AWS_RDS_and_Secrets_Manager.ipynb)
+1. `Set 2` [AWS Security](https://knowledgetree.notion.site/AWS-Security-Shared-48e36de7c504490eb131ec1b0ae1a48f)
+1. `Set 2` [Messaging and Data Streaming in AWS](https://knowledgetree.notion.site/Messaging-and-Data-Streaming-in-AWS-Shared-90c391fd49d746a7bc25230beb25b008)
+1. `Set 2` [AWS Database Migration Service](https://youtu.be/ouia1Sc5QGo)
 
-1. [The AWS Data Engineer's Toolkit](https://knowledgetree.notion.site/The-AWS-Data-Engineer-s-Toolkit-b1ced908d4c6432296c257c87dfacb49)
-2. [Data Engineering on AWS](data-engineering-essentials/data-engineering-on-aws.md)
-3. [AWS CLI, IAM and S3 Bucket](aws-cli-iam-s3)
+### Python & SQL
 
-#### Set 2
-
-3. [[Lab] AWS Secrets Manager](aws-secrets-manager/AWS_RDS_and_Secrets_Manager.ipynb)
-4. [AWS Security](https://knowledgetree.notion.site/AWS-Security-Shared-48e36de7c504490eb131ec1b0ae1a48f)
-5. [Amazon Relational Database Services (RDS)](aws-rds/README.md)
-6. [Messaging and Data Streaming in AWS](https://knowledgetree.notion.site/Messaging-and-Data-Streaming-in-AWS-Shared-90c391fd49d746a7bc25230beb25b008)
-7. [AWS Database Migration Service](https://youtu.be/ouia1Sc5QGo)
+1. `Set 1` [Python and SQL Hands-on Practical Exercises](./python-and-sql/)
+1. `Set 2` [Udacity Nanodegree on SQL](sql/udacity-nanodegree)
+4. `Set 3` [What I realized after solving 100 leetcode SQL questions](https://towardsdatascience.com/sql-questions-summary-df90bfe4c9c)
+5. `Set 3` [SQL Leetcode All questions set](sql/leetcode-2)
+6. `Set 4` [LeetCode SQL Problem Solving Questions With Solutions](https://www.dsfaisal.com/articles/sql/leetcode-sql-problem-solving)
+7. `Set 5` [HackerRank SQL Problem Solving Questions With Solutions](https://www.dsfaisal.com/articles/sql/hackerrank-sql-problem-solving#1-revising-the-select-query-i--easy--hackerrank)
+8. `Set 5` [SQL Interview Questions](https://knowledgetree.notion.site/SQL-Interview-Questions-04a1196192a24eb2848e8454af1bd9c7)
+9.  `Set 5` [Data Engineer Interview Questions](https://www.stratascratch.com/blog/data-engineer-interview-questions/)
+10. `Set 5` [SQL Case Studies](sql/case-studies)
+11. `Set 5` [SQL Commands Categories](sql/commands1.png)
+12. `Set 5` [Top 30 Python Interview Questions and Answers](https://www.stratascratch.com/blog/top-30-python-interview-questions-and-answers/)
+3. `Set 5` [10 SQL Queries You Should Know as a Data Engineer](https://knowledgetree.notion.site/10-SQL-Queries-You-Should-Know-as-a-Data-Engineer-4e157d42c4ce4ae08050e99f3b33b82b)
 
 ## Projects
 
@@ -120,17 +105,20 @@
 
 > Feel free to pick a project from this idea list
 
-1. [Clickstream Data Pipeline](portfolio-project/ideas.md)
-2. [SmartCity Bike-Sharing Service](portfolio-project/ideas.md)
-3. [Reddit Submissions in a Data Warehouse](portfolio-project/ideas.md)
-4. [Twitter Data Topic Analysis](portfolio-project/ideas.md)
-5. [API to MySQL Data Pipeline with Lambda Function](portfolio-project/ideas.md)
-6. [US Travels and Immigration](portfolio-project/ideas.md)
-7. [IoT Health Tracker Data Pipeline on Databricks](portfolio-project/ideas.md)
-8. [Building Data Pipeline with MySQL, dbt, Airflow, and Redash](portfolio-project/ideas.md)
-9. [Sequential Recommendation with the Modern Data Stack](portfolio-project/ideas.md)
-10. [Building a Data Lake on AWS with AWS Glue, Glue Studio, Amazon Athena, and S3](portfolio-project/ideas.md)
-11. [Data Streaming ETL Pipeline with Kafka and Spark Streaming of a Retail Store](portfolio-project/ideas.md)
+1. [Clickstream Data Pipeline](capstones/ideas.md)
+2. [SmartCity Bike-Sharing Service](capstones/ideas.md)
+3. [Reddit Submissions in a Data Warehouse](capstones/ideas.md)
+4. [Twitter Data Topic Analysis](capstones/ideas.md)
+5. [API to MySQL Data Pipeline with Lambda Function](capstones/ideas.md)
+6. [US Travels and Immigration](capstones/ideas.md)
+7. [IoT Health Tracker Data Pipeline on Databricks](capstones/ideas.md)
+8. [Building Data Pipeline with MySQL, dbt, Airflow, and Redash](capstones/ideas.md)
+9. [Sequential Recommendation with the Modern Data Stack](capstones/ideas.md)
+10. [Building a Data Lake on AWS with AWS Glue, Glue Studio, Amazon Athena, and S3](capstones/ideas.md)
+11. [Data Streaming ETL Pipeline with Kafka and Spark Streaming of a Retail Store](capstones/ideas.md)
+12. [Job Vacancies](capstones/ideas.md)
+13. [Reddit FedEx ETL](capstones/ideas.md)
+14. [Bitcoin Monitor](https://www.startdataengineering.com/post/data-engineering-project-to-impress-hiring-managers/)
 
 #### Milestones
 
@@ -143,52 +131,82 @@
 
 ## Data Modeling
 
+> Modeling the data in Databases and Data Warehouses.
+
 ### Primer
 
-#### Set 1
+1. `Set 1` [Data Normalization](data-modeling/data-normalization.md)
+2. `Set 1` [SQL vs NoSQL](data-modeling/sql-vs-no-sql.md)
+3. `Set 1` [OLTP vs OLAP](data-engineering-essentials/oltp-vs-olap.md)
+4. `Set 1` [The CAP Theorem](data-modeling/cap-theorem.md)
+5. `Set 1` [Data Modeling](data-modeling/data-modeling.md)
+6. `Set 1` [Data Modeling](data-modeling/data-modeling.png)
+7. `Set 1` [Data Modeling](https://bit.ly/3Sco9SY)
+8. `Set 1` [Database Schema Design Examples](https://blog.panoply.io/database-schema-design-examples)
+9. `Set 2` [Data Modeling Layer & Concepts](https://www.holistics.io/books/setup-analytics/data-modeling-layer-and-concepts/)
+10. `Set 2` [Kimball’s Dimensional Data Modeling](https://www.holistics.io/books/setup-analytics/kimball-s-dimensional-data-modeling/)
+11. `Set 2` [Modeling Example: A Real-world Use Case](https://www.holistics.io/books/setup-analytics/modeling-example-a-real-world-use-case/)
+12. `Set 2` [Kimball Dimensional Modeling Techniques](https://bit.ly/3DPllXo)
+13. `Set 2` [Designing a dimensional model for a cargo shipper](https://www.techshashank.com/data-warehousing/shipping-dimensional-modeling)
+14. `Set 2` [Data Modeling](https://knowledgetree.notion.site/Data-Modeling-92b0646bc2674a23a6203d9309bf414f)
+15. `Set 2` [5 Database Design Schema Example: Critical Practices & Designs](https://hevodata.com/learn/schema-example/)
+16. `Set 2` [Kimball’s 4-Step Dimensional Design Process](https://bit.ly/3LTUtHY)
+17. `Set 2` [Slowly Changing Dimensions (SCDs)](data-modeling/scd.md)
+18. `Set 2` [Introduction to Data Warehouse](https://knowledgetree.notion.site/Brief-Introduction-to-Data-Warehouses-Shared-83ead0962c7a4c1cb7f165995f58e122)
+19. `Set 2` [Data Warehouse Schemas](https://knowledgetree.notion.site/Data-Warehousing-Schemas-Shared-a03264b8ab6d4a50b6be0d73a82f8c8c)
+20. `Set 2` [Know Data Warehouse Essential Concepts](https://www.1keydata.com/datawarehousing/datawarehouse.html)
+21. [Amazon Relational Database Services (RDS)](aws-rds/README.md)
 
-1. [Data Systems](data-modeling/data-systems.md)
-1. [SQL vs NoSQL](data-modeling/sql-vs-no-sql.md)
-2. [OLTP vs OLAP](data-engineering-essentials/oltp-vs-olap.md)
-3. [The CAP Theorem](data-modeling/cap-theorem.md)
-4. [Data Modeling](data-modeling/data-modeling.png)
-5. [Data Modeling](https://bit.ly/3Sco9SY)
+### Getting Started with Postgres
 
-#### Set 2
-
-6. [Data Modeling Layer & Concepts](https://www.holistics.io/books/setup-analytics/data-modeling-layer-and-concepts/)
-7. [Kimball’s Dimensional Data Modeling](https://www.holistics.io/books/setup-analytics/kimball-s-dimensional-data-modeling/)
-8. [Modeling Example: A Real-world Use Case](https://www.holistics.io/books/setup-analytics/modeling-example-a-real-world-use-case/)
-9.  [Kimball Dimensional Modeling Techniques](https://bit.ly/3DPllXo)
-10. [[Case] Designing a dimensional model for a cargo shipper](https://www.techshashank.com/data-warehousing/shipping-dimensional-modeling)
-11. [Data Modeling](https://knowledgetree.notion.site/Data-Modeling-92b0646bc2674a23a6203d9309bf414f)
+1. [A brief introduction to Postgres](data-modeling/postgres-intro.md)
+2. [Setup Postgres on AWS RDS](workspace-setup/install-postgres.md)
+3. Connect to Postgres via DBeaver
+4. Execute Basic SQL Queries in Postgres
+5. [Window Functions with Postgres](postgres/window-functions.md)
+6. [10 Essential PSQL Commands For Data Engineers](https://towardsdatascience.com/10-essential-psql-commands-for-data-engineers-c1ea42279160)
+7. [Building Your Data Warehouse On Top Of PostgreSQL](https://www.dataengineeringpodcast.com/postgresql-data-warehouse-episode-186/)
+8. [Query Postgres with Python](postgres/query_postgres_with_python.ipynb)
 
 ### Data Modeling with Postgres
 
-1. [A brief introduction to Postgres](data-modeling/postgres-intro.md)
-2. [Install Postgres](workspace-setup/install-postgres.md)
-3. [[Lab] Query Postgres with Python](postgres/query_postgres_with_python.ipynb)
+1. [Sparkify Music Company Data Modeling with Postgres](postgres-sparkify)
+2. [Funflix Data Modeling](postgres-funflix)
+3. [eWallet Dimension Modeling](postgres-ewallet)
+4. [Building a Database for Crime Reports](postgres-crime-reports)
+
+### Getting Started with Cassandra
+
+1. [A brief introduction to Cassandra](data-modeling/cassandra-intro.md)
+2. [Install Cassandra Locally](workspace-setup/install-cassandra.md)
+3. [Install Cassandra On Cloud]() // TODO
+4. [Interacting with Cassandra using CSQL]() // TODO
+5. [Interacting with Cassandra using Python](cassandra-beginners/01-sa-cassandra-python.ipynb)
+6. [Cassandra Case Studies](https://cassandra.apache.org/_/case-studies.html)
 
 ### Data Modeling with Cassandra
 
-1. [A brief introduction to Cassandra](data-modeling/cassandra-intro.md)
-2. [Install Cassandra](workspace-setup/install-cassandra.md)
-3. [[Lab] Query Cassandra with Python](cassandra-beginners/01-sa-cassandra-python.ipynb)
-4. [[Lab] Hotel Reservations Data Modeling with Cassandra](cassandra-hotel-reservations) [[theory]](https://learning.oreilly.com/library/view/cassandra-the-definitive/9781492097136/ch05.html#conceptual_data_modeling)
-5. [Cassandra Case Studies](https://cassandra.apache.org/_/case-studies.html)
+1. [Hotel Reservations Data Modeling with Cassandra](cassandra-hotel-reservations) [[theory]](https://learning.oreilly.com/library/view/cassandra-the-definitive/9781492097136/ch05.html#conceptual_data_modeling)
+2. [Sparkify Data Modeling with Cassandra]() // TODO
+3. [Create a Data Model for an Email System](cassandra-email-data-model)
+4. [Create a Data Model for a Digital Music Library](cassandra-digital-music-library)
+5. [Create a Data Model for Temperature Monitoring Sensor Networks](cassandra-sensor-data-model)
+6. [Create a Data Model for Investment Accounts or Portfolios](cassandra-investment-data-model)
+7. [Create a Data Model for Online Shopping Carts](cassandra-shopping-cart-data-model)
+
+### Getting Started with DynamoDB
+
+1. [DynamoDB Explained](https://www.dynamodbguide.com/)
+2. [Best practices for designing and architecting with DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/best-practices.html)
+3. [Various Examples and AWS SDK code examples for Amazon DynamoDB](https://github.com/aws-samples/aws-dynamodb-examples)
+4. [The DynamoDB Book](https://knowledgetree.notion.site/The-DynamoDB-Book-Shared-8e9346036a704e0da2765f4c8cfe1153)
 
 ### Data Modeling with DynamoDB
 
 1. [AWS DynamoDB Tutorial for Beginners](https://youtu.be/2k2GINpO308)
 2. [AWS DynamoDB Tutorial](https://youtu.be/k0fcbRj_pZE)
 3. [Deep-dive into the NoSQL, serverless scaling of Amazon DynamoDB](https://bit.ly/3flUatm)
-
-## Data Warehousing
-
-### Primer
-
-1. [Introduction to Data Warehouse](https://knowledgetree.notion.site/Brief-Introduction-to-Data-Warehouses-Shared-83ead0962c7a4c1cb7f165995f58e122)
-2. [Data Warehouse Schemas](https://knowledgetree.notion.site/Data-Warehousing-Schemas-Shared-a03264b8ab6d4a50b6be0d73a82f8c8c)
+4. [DynamoDB Office Hours: Modeling an online banking service](https://youtu.be/sBpgH5RFAlQ)
 
 ### Amazon Redshift
 
@@ -197,6 +215,7 @@
 2. [Accelerate Application Development with Real Time Streams in Amazon Redshift](https://bit.ly/3Se99Ur)
 3. [Data Engineering at Udemy](https://www.slideshare.net/ankarabigdata/data-engineering-at-udemy?qid=d835f0e3-f290-4445-bd19-d6ac6824e24c&v=&b=&from_search=5)
 4. [[Lab] Redshift with Python](amazon-redshift/Create_Amazon_Redshift_Warehouse_and_connect_with_Python.ipynb)
+5. [Implement a slowly changing dimension in Amazon Redshift](https://aws.amazon.com/blogs/big-data/implement-a-slowly-changing-dimension-in-amazon-redshift/)
 
 ### Snowflake
 
@@ -337,20 +356,15 @@
 
 ### Hadoop
 
-#### Set 1
-
-1. [Hadoop Architecture](hadoop)
-2. [Origins of Hadoop](hadoop/origins.md)
-
-#### Set 2
-
-3. [Mapreduce]() // TODO
-4. [Programming Hadoop with Pig]() // TODO
-5. [Programming Hadoop with Spark]() // TODO
-6. [HBase]() // TODO
-7. [HDFS](hadoop/HDFS)
-8. [Hive](hadoop/Hive)
-9.  [YARN Resource Management in Hadoop]() // TODO
+1. `Set 1` [Hadoop Architecture](hadoop)
+2. `Set 1` [Origins of Hadoop](hadoop/origins.md)
+3. `Set 2` [Mapreduce]() // TODO
+4. `Set 2` [Programming Hadoop with Pig]() // TODO
+5. `Set 2` [Programming Hadoop with Spark]() // TODO
+6. `Set 2` [HBase]() // TODO
+7. `Set 2` [HDFS](hadoop/HDFS)
+8. `Set 2` [Hive](hadoop/Hive)
+9. `Set 2` [YARN Resource Management in Hadoop]() // TODO
 
 ### Extract and Load: Airbyte and Fivetran
 
@@ -378,6 +392,8 @@
 
 ## Case Studies
 
+### Set 1
+
 1. [The Big Book of Data Engineering with Databricks](https://drive.google.com/open?id=1fWOQOUCHz7j-niHErOTN-9fa0fMTSI_y&authuser=recohut.data.001%40gmail.com&usp=drive_fs)
 2. [How we store and process millions of orders daily at Grab](https://engineering.grab.com/how-we-store-millions-orders)
 3. [Data Engineering at Uber](case-studies/uber.md)
@@ -390,6 +406,10 @@
 10. [Towards Machine Learning Observability at Etsy](https://www.etsy.com/codeascraft/towards-machine-learning-observability-at-etsy)
 11. [Modernizing the Data Engineering Stack in 99 Group](https://medium.com/99dotco/modernizing-the-data-engineering-stack-in-99-group-579aa5eb5246)
 12. [Cookbook of Case Studies](https://cookbook.learndataengineering.com/docs/05-CaseStudies)
+
+### Set 2
+
+1. [Upgrading Data Warehouse Infrastructure at Airbnb](https://bit.ly/3rmKSQw)
 
 ### Additionals
 
@@ -438,6 +458,7 @@
 
 1. [The Modern Data Stack Repository](https://www.moderndatastack.xyz/)
 2. [Medium Blog Posts - Data Engineering](https://medium.com/tag/data-engineering/latest)
+3. [Start Data Engineering Blog Posts](https://www.startdataengineering.com/)
 
 ### Data Engineering
 
@@ -484,3 +505,5 @@
 1. [Modern Big Data Processing with Hadoop](https://learning.oreilly.com/library/view/modern-big-data/9781787122765/) [[code](https://github.com/packtpublishing/modern-big-data-processing-with-hadoop)]
 1. [Moving Hadoop to the Cloud](https://learning.oreilly.com/library/view/moving-hadoop-to/9781491959626/) [[code](https://github.com/bhavanki/moving-hadoop-to-the-cloud)]
 1. [Hadoop with Python](https://learning.oreilly.com/library/view/hadoop-with-python/9781492048435/) [[code](https://github.com/MinerKasch/HadoopWithPython)]
+
+> Note: If you get 404-error on some links, that means you do not have access to that.
